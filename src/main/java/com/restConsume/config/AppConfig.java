@@ -9,4 +9,5 @@ import org.springframework.web.client.RestTemplate;
 public class AppConfig {
 	
 int n=0;
+String str="asjhd";
 }

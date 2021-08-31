@@ -18,4 +18,5 @@ public class controller {
 	public String getdata() {
 	 return servicelayer.consumeAPI();	
 	}
+int n=10;
 }
