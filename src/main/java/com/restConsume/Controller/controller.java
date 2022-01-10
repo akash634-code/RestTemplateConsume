@@ -10,6 +10,8 @@ import com.restConsume.service.ServiceLayer;
 
 @RestController
 public class controller {
+	
+	int x=10;
 
 	@Autowired
 	private  ServiceLayer servicelayer;
