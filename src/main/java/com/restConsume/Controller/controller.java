@@ -18,7 +18,7 @@ public class controller {
 	
 @GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE)
 	public String getdata() {
-	 return servicelayer.consumeAPI();	
+
+	return servicelayer.consumeAPI();
 	}
-int n=10;
 }
