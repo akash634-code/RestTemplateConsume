@@ -19,7 +19,8 @@ public class controller {
 @GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE)
 	public String getdata() {
 
-	return servicelayer.consumeAPI();
+    System.out.println("modified to raise merge request");
+	return servicelayer.consumeAPI(); // its a dummy change
 	}
 
 	//public responsee
