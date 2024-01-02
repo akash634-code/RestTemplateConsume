@@ -20,8 +20,7 @@ public class ServiceLayer {
 	*/
 	public String consumeAPI()
 	{
-		return "testing";
-	//return resttemplate.getForObject("https://jsonplaceholder.typicode.com/todos/1", String.class);
+	return resttemplate.getForObject("https://jsonplaceholder.typicode.com/todos/1", String.class)  ;
 	}
 	
 	
