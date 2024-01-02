@@ -11,7 +11,7 @@ import com.restConsume.service.ServiceLayer;
 @RestController
 public class controller {
 	
-	int x=10;
+
 
 	@Autowired
 	private  ServiceLayer servicelayer;
@@ -21,4 +21,6 @@ public class controller {
 
 	return servicelayer.consumeAPI();
 	}
+
+	//public responsee
 }
